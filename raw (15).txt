@@ -1,0 +1,128 @@
+- [v2.10] | [+] - added; [~] - changed; [-] - removed
+
+[ General Changes ]
+    [+] Icons for buttons, tabs, toy selectors and the plot selector
+    [~] Toy selectors now show readable toy names
+    [~] Changed script's default theme
+
+[ Home ]
+    [~] Remade layout, with key details, usage stats and quick access buttons
+
+    { Streamer Mode }
+        [+] Hide player names, with a custom replacement name
+        [+] Choose who it affects: yourself, friends or everyone
+
+[ Player ]
+    [+] Better Replication
+
+[ Invincibility ]
+    { Antis }
+        [+] New Anti-Lag method
+        [+] Anti Sticky-Exploits
+        [+] Reanimation for Anti Grab and Anti Snowball
+        [+] Silent and Fast Grab & Drop methods for Anti Network Ownership
+        [~] Anti-Lag is now on by default
+        [~] Improved Anti Banana on high ping
+        [~] Break PCLD now stops when turned off
+        [~] Fixed overlapping parts in Anti Network Ownership
+        [~] Fixed character freezing from Gucci Anti Grab and Remove Gucci
+        [~] Fixed Disable Void needing to be retoggled after deleting objects
+
+    { Anti-kick }
+        [+] Toy selection, positioning and rotation settings
+        [+] Built-in and custom presets
+        [~] Fixed trying to restick the toy without grabbing it first
+
+    { Config }
+        [~] Reorganized the layout
+        [+] Option to let whitelisted players grab you
+        [+] Reset timer and flag limits for Auto Reset
+
+[ Target ]
+    { Methods }
+        [+] Resolve Desync
+        [~] Renamed Destroy Food to Break Holdable
+        [+] Deletion and Breaking methods for Break Holdable
+        [~] Kick holds one target above you and multiple targets in a circle
+
+[ Toys ]
+    { Effects }
+        [+] Ragdoll Kill
+
+    { Toys Aura }
+        [~] Remade the layout
+        [+] Only Grab Plot Toys
+        [+] Toy Whitelist, turn it on to only grab selected toys
+        [+] Exclude your own or whitelisted players' toys
+
+    { Experimental }
+        [~] Cleaned up the layout
+        [+] Fix All button for parts affected by Decollide Part
+
+    { Explosions }
+        [~] Handles changes to the toy count while spawning
+
+    { Misc }
+        [+] Deletion and Breaking methods for Break All Holdables
+        [~] Break All Holdables now stops when turned off
+        [~] Destroy Train is faster
+
+[ Visual ]
+    { ESP }
+        [~] Cleaned up the settings layout
+        [~] Improved PCLD detection and smoothing
+        [+] Option to show toys stuck to you in Sticky ESP
+
+    { Shaders }
+        [~] Remade the section with more settings
+        [~] Updated built-in presets
+        [+] Custom presets and JSON import/export
+
+    { Sky }
+        [~] Remade the section
+        [+] Built-in skyboxes and Simple/Advanced custom skyboxes
+        [+] Custom presets and JSON import/export
+
+    { Particles }
+        [~] Remade the section with more settings
+        [+] Custom presets and JSON import/export
+
+    { Graphics }
+        [~] Improved Realistic Water generation
+        [+] Water generation progress notifications
+
+[ Auto-Clicker ]
+    [~] Remade the layout
+    [+] Copy your limbs' rotation
+    [+] Hold Position
+    [+] Body and limb damping settings
+    [~] Fixed settings carrying over between independent targets
+
+[ Keybinds ]
+    { Spawn Toy }
+        [~] Replaced Spawn Pallet with a toy selector and spawn keybind
+
+    { Local Player }
+        [~] Smooth Click TP no longer interrupts animations or autorotation
+
+    { Players }
+        [~] Remade Control Character with walking, jumping, crouching and animations
+
+[ Misc ]
+    [~] Preserve House Time and Break Barrier now use Invisible Teleportation
+    [-] Duplicate sounds in Sound Spam
+
+[ Lists ]
+    { Immunity }
+        [+] Counter-attack
+
+[ Settings ]
+    [~] Reorganized the layout
+
+    { Network }
+        [+] Invisible Teleportation
+
+    { Menu }
+        [+] Choose what the watermark shows
+        [+] Watermark update speed and FPS/ping smoothing
+        [+] UI animation and sidebar style settings
